@@ -1,0 +1,82 @@
+.users-photo__title {
+  background-color: #283645;
+  background-image: url('../img/bg-back-mobile@1x.jpg');
+  // background-position: top center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: lighter;
+  padding-top: 40px;
+  padding-bottom: 88px;
+}
+
+.content-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.users-photo__description {
+  font-size: 14px;
+  font-weight: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.users-photo__photo-item {
+  margin-bottom: 20px;
+}
+
+.users-photo__item {
+    margin-bottom: -6px;
+}
+
+.users-photo__day-photo {
+  background-color: #d22856;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 20px;
+}
+
+.users-photo__wrapper {
+  background-color: #f2f2f2;
+  padding-left: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.users-photo__name {
+  margin-bottom: 5px;
+}
+
+.users-photo__download-time {
+  font-size: 12px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.users-photo__comment {
+  margin-bottom: 13px;
+}
+
+.users-photo__like {
+  color: #d22856;
+  font-size: 12px;
+  text-transform: uppercase;
+  &::before {
+    content: "";
+    width: 13px;
+    height: 12px;
+    background-image: url("../img/icon-heart.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.users-photo__description {
+  line-height: 30px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}

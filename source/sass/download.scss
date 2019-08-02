@@ -1,0 +1,43 @@
+.download {
+  background-color: #1d2631;
+  color: #ffffff;
+}
+
+.download__slogan-wrapper {
+  background-image: url('../img/bg-back-mobile@1x.jpg');
+  // background-position: top center;
+  background-repeat: no-repeat;
+  margin-bottom: 28px;
+}
+
+.download__slogan {
+  font-size: 24px;
+  font-weight: 100;
+  padding-top: 28px;
+  padding-bottom: 33px;
+}
+
+.download__link {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 44px;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  padding: 15px 40px;
+  margin-bottom: 32px;
+}
+
+.stores-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.download__description {
+  font-weight: 100;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,27 @@
+.main-nav__open-toggle,
+.main-nav__close-toggle {
+  background-color: #283645;
+  border: none;
+  cursor: pointer;
+}
+
+.site-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-list__item {
+  border-top: 1px solid #485461;
+  border-bottom: 1px solid #000000;
+  padding-top: 18px;
+  padding-bottom: 16px;
+}
+
+.site-list__item a {
+color: #ffffff;
+font-size: 18px;
+line-height: 32px;
+font-weight: 700;
+text-transform: uppercase;
+}

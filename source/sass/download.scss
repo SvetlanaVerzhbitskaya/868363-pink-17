@@ -1,29 +1,43 @@
 .download {
   background-color: #1d2631;
   color: #ffffff;
+  background-image: url('../img/bg-back-mobile@1x.jpg');
+  background-position: center 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
 }
 
-.download__slogan-wrapper {
-  background-image: url('../img/bg-back-mobile@1x.jpg');
-  // background-position: top center;
-  background-repeat: no-repeat;
-  margin-bottom: 28px;
+.download__width {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.download__wrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
 }
 
 .download__slogan {
   font-size: 24px;
-  font-weight: 100;
-  padding-top: 28px;
-  padding-bottom: 33px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 345px;
 }
 
 .download__link {
   display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  margin: 0 auto;
   color: #ffffff;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  margin-bottom: 44px;
   border: 3px solid #ffffff;
   border-radius: 30px;
   padding: 15px 40px;
@@ -31,13 +45,98 @@
 }
 
 .stores-list {
+  display: flex;
+  width: 205px;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 25px;
 }
 
+.stores-list__item {
+  display: block;
+}
+
 .download__description {
-  font-weight: 100;
-  padding-bottom: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.download__picture {
+  width: 258px;
+  height: 285px;
+  position: absolute;
+  top: 110px;
+  left: -20px;
+}
+
+@media(min-width: 768px) {
+  .download__width {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .download__wrapper {
+    width: 300px;
+  }
+
+  .download__slogan {
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 104px;
+    margin-bottom: 34px;
+  }
+
+  .download__link {
+    margin-bottom: 44px;
+  }
+
+  .download__description {
+    font-size: 18px;
+    margin-bottom: 112px;
+  }
+
+  .download__picture {
+    width: 470px;
+    height: 546px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    z-index: -1;
+  }
+}
+
+@media(min-width: 1200px) {
+  .download__width {
+  width: 940px;
+  margin: 0 auto;
+}
+
+  .download__slogan {
+    font-size: 50px;
+    line-height: 65px;
+    margin-top: 116px;
+    margin-bottom: 50px;
+  }
+
+  .download__link {
+    font-size: 21px;
+    line-height: 18px;
+    margin-bottom: 65px;
+  }
+
+  .download__description {
+    font-size: 18px;
+    margin-bottom: 124px;
+  }
+
+  .download__picture {
+    width: 596px;
+    height: 645px;
+    bottom: 0;
+    right: 40px;
+  }
 }
